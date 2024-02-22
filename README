@@ -1,0 +1,53 @@
+# Dice Roller
+
+### Description
+A dice roller application for android devices. Runs the number of dice with the
+number of sides of your choosing. Displays the values of each roll as well as
+total value of the roll. The number of dice is locked between 1 and 6 while
+sides are limited between 3 and 20.
+
+Some difficulties I encountered were input validation and creating a clear and
+customized look for the app. I needed to make improper inputs clear for the
+more mischievous users. I added a couple methods to familiarize myself. For
+number of dice, I limited the keypad to numbers and only enabled numbers 1-6.
+For the number of sides I confirm it's in the range of 3 and 20. Both input
+boxes display red with empty or invalid input and green when valid.
+
+This is one my first Kotlin experiences. Since I am familiar with Java, it made
+the experience more smooth. It helped me better visualize a
+model-controller-view design. My only other GUI experience was using JavaFX,
+which was helpful.
+
+### Installation
+- Download and unzip the DiceRoller folder
+- Open the folder in Android Studio
+- Click the green triangle Run 'app' button (Shift+F10)
+
+### Instructions
+- Enter between 1 and 6 dice to roll
+- Enter between 3 and 20 sides per dice
+- Press the "ROLL!" button to roll selected dice
+
+### License
+
+MIT License
+
+Copyright (c) 2024 Bryce Gardner
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
